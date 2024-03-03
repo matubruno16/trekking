@@ -11,7 +11,7 @@ export const Parallax = () => {
   });
 
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["-200%", "1500%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["-250%", "1500%"]);
 
   return (
     <div className="w-full h-screen overflow-hidden relative grid place-items-center">

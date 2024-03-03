@@ -21,7 +21,7 @@ export default {
           },
           backgroundImage: {
             fitzRoy: "url('/laguna-de-los-tres.webp')",
-            glaciares: "url('/parque-glaciares.webp')",
+            peritomoreno: "url('/peritomoreno.webp')",
             humahuaca: "url('/quebrada-de-humahuca.webp')",
             lagunaNegra: "url('/lagunaNegra.webp')",
             tierraDelFuego: "url('/sendero-tiera-del-fuego.webp')",
