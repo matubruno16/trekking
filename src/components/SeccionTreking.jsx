@@ -4,7 +4,6 @@ import { TarjetaFlotante } from "./TarjetaFlotante";
 
 const contenido = [
   {
-    href: "#",
     className: "relative md:col-span-2 md:row-span-3 lg:row-span-2 md:col-start-1 md:row-start-4 bg-cover bg-no-repeat rounded-lg bg-center overflow-hidden cursor-pointer",
     titulo: "Trekking  la Quebrada de Humahuaca",
     dificultad: "Media",
@@ -13,7 +12,6 @@ const contenido = [
     tiempo: "4",
   },
   {
-    href: "#",
     className: "relative md:row-span-3 md:col-start-1 md:row-start-7 lg:row-start-3 bg-cover bg-no-repeat rounded-lg bg-center overflow-hidden cursor-pointer",
     titulo: "Trekking al Monte Fitz Roy",
     dificultad: "Alta",
@@ -22,7 +20,6 @@ const contenido = [
     tiempo: "10",
   },
   {
-    href: "#",
     className: "relative md:row-span-3 md:col-start-1 lg:col-start-2 row-start-1 lg:row-start-3 bg-cover bg-no-repeat rounded-lg bg-center overflow-hidden cursor-pointer",
     titulo: "Trekking Perito Moreno",
     dificultad: "Moderada",
@@ -31,7 +28,6 @@ const contenido = [
     tiempo: "6",
   },
   {
-    href: "#",
     className: "relative md:row-span-3 md:col-start-2 lg:col-start-3 md:row-start-1 bg-cover bg-no-repeat rounded-lg bg-center overflow-hidden cursor-pointer",
     titulo: "Trekking Laguna Negra",
     dificultad: "Alta",
@@ -40,7 +36,6 @@ const contenido = [
     tiempo: "7",
   },
   {
-    href: "#",
     className: "relative md:row-span-3 md:row-start-7 lg:row-span-2 lg:col-start-3 lg:row-start-4 bg-cover bg-no-repeat rounded-lg bg-center overflow-hidden cursor-pointer ",
     titulo: "Trekking Lago Roca",
     dificultad: "Moderada",
