@@ -26,9 +26,9 @@ export const ArticleTrekking = ({ onClick, className, titulo, dificultad, backgr
                 width={22}
                 height={22}
                 src={senderista}
-                alt="Deficuktad sendero" 
+                alt="Dificultad sendero"
                 loading="lazy"
-                />
+              />
               <span>{dificultad}
               </span>
             </div>
