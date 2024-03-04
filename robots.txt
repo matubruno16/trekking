@@ -27,13 +27,6 @@ Disallow: /*?sort=
 Disallow: /*?filter=
 Disallow: /*?page=
 
-# Evita que los motores de búsqueda rastreen las URL de paginación
-Disallow: /*?page=*&
-
-# Evita que los motores de búsqueda accedan a ciertas páginas
-Disallow: /404-error-page.html
-Disallow: /thank-you-page.html
-
 # Ralentiza la velocidad de rastreo para evitar sobrecargar el servidor
 Crawl-delay: 5
 
