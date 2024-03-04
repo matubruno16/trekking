@@ -10,7 +10,12 @@ export const Footer = () => {
           <a href="/"> Trekking</a>
         </span>
         <ul className="flex flex-wrap items-center gap-6 text-sm font-medium text-gray-500 dark:text-gray-400 ">
-          <a href="https://matiasbrunodev.vercel.app/">
+          <a
+            href="https://matiasbrunodev.vercel.app/"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Link to Matias Website"
+          >
             <img
               width={28}
               height={28}
@@ -19,7 +24,12 @@ export const Footer = () => {
               loading="lazy"
             />
           </a>
-          <a href="https://www.linkedin.com/in/matiasbruno19/">
+          <a
+            href="https://www.linkedin.com/in/matiasbruno19/"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Link to Matias Website"
+          >
             <img
               width={28}
               height={28}
@@ -29,7 +39,12 @@ export const Footer = () => {
             />
           </a>
 
-          <a href="https://github.com/matubruno16/">
+          <a
+            href="https://github.com/matubruno16/"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Link to Matias Website"
+          >
             <img
               width={28}
               height={28}
