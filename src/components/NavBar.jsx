@@ -3,8 +3,8 @@ export const NavBar = () => {
   return (
     <nav className="z-50 ">
       <ul className="hidden md:flex items-center justify-between gap-4 text-lg text-gray-400">
-        <a href="#" className=' hover:cursor-pointer hover:border-b hover:border-b-1  border-gray-400  transition-all ease-in-out '>Home</a>
-        <a href="#" className="hover:cursor-pointer hover:border-b border-gray-400 hover:border-b-1 transition-all ease-in-out hover:drop-shadow-xl " >Trekking</a>
+        <a href="/" className=' hover:cursor-pointer hover:border-b hover:border-b-1  border-gray-400  transition-all ease-in-out '>Home</a>
+        <a href="#trekking" className="hover:cursor-pointer hover:border-b border-gray-400 hover:border-b-1 transition-all ease-in-out hover:drop-shadow-xl " >Trekking</a>
        
           
         <a 

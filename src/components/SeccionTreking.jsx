@@ -69,7 +69,7 @@ export const SeccionTreking = () => {
   };
 
   return (
-    <section className="w-full py-16 bg-[#101216] overflow-hidden">
+    <section id="trekking" className="w-full py-16 bg-[#101216] overflow-hidden">
       <h2 className="w-full flex text-center justify-center mx-auto text-5xl text-gray-50">Los mejores trekking de Argentina</h2>
       <div className="grid grid-cols-1 grid-row-5 md:grid-cols-2 lg:grid-cols-3 md:grid-row-9 lg:grid-rows-5 gap-4 w-[90%] md:w-[80%] min-w-[300px] max-w-[450px] md:max-w-full mx-auto h-[80vh] py-10">
         {contenido.map((item, index) => (
