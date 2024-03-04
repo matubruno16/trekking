@@ -31,4 +31,4 @@ Disallow: /*?page=
 Crawl-delay: 5
 
 # Sitemap location
-Sitemap: https://trekking-argentina.vercel.app/sitemap.xml
+Sitemap: https://trekkingenargentina.vercel.app/sitemap.xml
