@@ -6,11 +6,11 @@
         },
         {
             "src": "/sitemap.xml",
-            "dest": "/"
+            "dest": "/sitemap.xml"
         },
         {
             "src": "/robots.txt",
-            "dest": "/"
+            "dest": "/robots.txt"
         }
     ]
 }
