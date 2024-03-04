@@ -30,7 +30,7 @@ export const TarjetaFlotante = ({ contenido, onClose, visible }) => {
                 src={time}
                 width={24}
                 alt="Icono tiempo"
-                className="aspect-square"
+                className="aspect-square w-6 h-6"
                 loading="lazy"
               />
               <span>{contenido.tiempo} hs</span>
@@ -38,7 +38,7 @@ export const TarjetaFlotante = ({ contenido, onClose, visible }) => {
                 src={senderista}
                 alt="Dificultad sendero"
                 width={24}
-                className="ml-10 aspect-square"
+                className="w-6 h-6 ml-10 aspect-square"
                 loading="lazy"
               />
               <span>Dificultad {contenido.dificultad}</span>

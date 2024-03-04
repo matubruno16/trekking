@@ -11,8 +11,9 @@ export const ArticleTrekking = ({ onClick, className, titulo, dificultad, backgr
         <div className="flex flex-col w-3/4">
           <h3 className="text-pretty">{titulo}</h3>
           <div className="flex gap-3 ">
-            <div className="flex gap-1 pt-1">
+            <div className="flex gap-1 items-center ">
               <img
+                className="w-6 h-6"
                 width={24}
                 height={24}
                 src={time}
@@ -21,10 +22,11 @@ export const ArticleTrekking = ({ onClick, className, titulo, dificultad, backgr
               />
               <span>{tiempo}hs</span>
             </div>
-            <div className="flex gap-1 pt-1">
+            <div className="flex items-center gap-1">
               <img
-                width={22}
-                height={22}
+                className="w-6 h-6"
+                width={24}
+                height={24}
                 src={senderista}
                 alt="Dificultad sendero"
                 loading="lazy"
