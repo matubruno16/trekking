@@ -1,0 +1,41 @@
+User-agent: *
+Allow: /                  # Permite a todos los robots acceder a todas las páginas del sitio
+
+# Excluye ciertas partes del sitio de la indexación
+Disallow: /admin/         # Carpeta de administración
+Disallow: /private/       # Contenido privado
+Disallow: /src/           # Carpeta de código fuente
+Disallow: /images/        # Carpeta de imágenes
+
+# Evita que los motores de búsqueda accedan a ciertas extensiones de archivo
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*.txt$
+Disallow: /*.rss$
+Disallow: /*.log$
+Disallow: /*.csv$
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+Disallow: /*.xls$
+Disallow: /*.xlsx$
+Disallow: /*.ppt$
+Disallow: /*.pptx$
+
+# Evita que los robots accedan a ciertos parámetros URL
+Disallow: /*?sort=
+Disallow: /*?filter=
+Disallow: /*?page=
+
+# Evita que los motores de búsqueda rastreen las URL de paginación
+Disallow: /*?page=*&
+
+# Evita que los motores de búsqueda accedan a ciertas páginas
+Disallow: /404-error-page.html
+Disallow: /thank-you-page.html
+
+# Ralentiza la velocidad de rastreo para evitar sobrecargar el servidor
+Crawl-delay: 5
+
+# Sitemap location
+Sitemap: https://trekking-argentina.vercel.app/sitemap.xml
