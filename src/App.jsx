@@ -1,6 +1,7 @@
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { SeccionTreking } from "./components/SeccionTreking";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <SeccionTreking />
       <Footer />
+      <Analytics />
     </main>
 
   )
