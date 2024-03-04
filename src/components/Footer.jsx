@@ -4,7 +4,7 @@ import logoMatias from "/logoMatias.png"
 
 export const Footer = () => {
   return (
-    <footer className="bg-gray-800 w-[90%] min-w-[300px] mx-auto rounded-lg shadow m-4 ">
+    <footer className="bg-gray-800 w-[80%] min-w-[300px] mx-auto rounded-lg shadow m-4 ">
       <div className="w-full mx-auto max-w-screen-xl py-4 px-4 md:px-10 flex items-center justify-between">
         <span className="text-base md:text-lg text-gray-500 text-center dark:text-gray-400">© 2024 -
           <a href="/"> Trekking</a>
