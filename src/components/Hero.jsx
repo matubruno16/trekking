@@ -1,4 +1,3 @@
-
 import { Header } from './Header'
 import { Parallax } from './Parallax'
 

@@ -9,7 +9,7 @@ export const TarjetaFlotante = ({ contenido, onClose, visible }) => {
     }
   };
   return (
-    <div 
+    <div
       onClick={handleBackgroundCLoseClick}
       className={`fixed inset-0 z-50 overflow-auto bg-black bg-opacity-60 flex justify-center items-center transition-opacity backdrop-blur-sm cursor-zoom-out ${visible ? '' : 'opacity-0 pointer-events-none'}`}>
       {contenido && (

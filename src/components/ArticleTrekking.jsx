@@ -1,9 +1,9 @@
 import time from "/iconTime.png"
 import senderista from "/senderismo.png"
 
-
-export const ArticleTrekking = ({ onClick , className, titulo, dificultad, background, tiempo }) => {
+export const ArticleTrekking = ({ onClick, className, titulo, dificultad, background, tiempo }) => {
   return (
+
     <article
       onClick={onClick}
       className={`${className} " " ${background}`}>
@@ -16,7 +16,9 @@ export const ArticleTrekking = ({ onClick , className, titulo, dificultad, backg
                 width={24}
                 height={24}
                 src={time}
-                alt="Icono tiempo" />
+                alt="Icono tiempo"
+                loading="lazy"
+              />
               <span>{tiempo}hs</span>
             </div>
             <div className="flex gap-1 pt-1">
@@ -24,13 +26,14 @@ export const ArticleTrekking = ({ onClick , className, titulo, dificultad, backg
                 width={22}
                 height={22}
                 src={senderista}
-                alt="Deficuktad sendero" />
+                alt="Deficuktad sendero" 
+                loading="lazy"
+                />
               <span>{dificultad}
               </span>
             </div>
           </div>
         </div>
-
       </div>
     </article>
   );

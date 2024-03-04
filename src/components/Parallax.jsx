@@ -1,7 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
-
 export const Parallax = () => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -15,14 +14,12 @@ export const Parallax = () => {
 
   return (
     <div className="w-full h-screen overflow-hidden relative grid place-items-center">
-      <motion.h1
+      <motion.h2
         style={{ y: textY, translateX: (0), }}
-        className="font-bold text-gray-300 text-6xl md:text-7xl 2xl:text-9xl relative z-10 uppercase"
-      >
+        className="font-bold text-gray-300 text-6xl md:text-7xl 2xl:text-9xl relative z-10 uppercase">
         Trekking
-      </motion.h1>
-
-      <motion.div 
+      </motion.h2>
+      <motion.div
         className="absolute inset-0 z-0"
         style={{
           backgroundImage: "url(completa.webp)",
@@ -30,7 +27,7 @@ export const Parallax = () => {
           backgroundSize: "cover",
           y: backgroundY,
         }}
-      ></motion.div> 
+      ></motion.div>
       <div
         className="absolute inset-0 z-20 mountain"
         style={{
@@ -39,8 +36,6 @@ export const Parallax = () => {
           backgroundSize: "cover",
         }}
       ></div>
-
-
     </div>
   );
 };
